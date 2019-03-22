@@ -1,0 +1,25 @@
+
+body
+{
+background-image: url('assets/images/annie-spratt-1346820-unsplash.jpg');
+}
+
+#Nissan {
+    height: 200px;
+    width: 200px;
+}
+
+#Lambo {
+    height: 200px;
+    width: 200px;
+}
+
+#Amg {
+    height: 200px;
+    width: 200px;
+}
+
+#R8 {
+    height: 200px;
+    width: 200px;
+}

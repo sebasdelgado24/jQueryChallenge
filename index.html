@@ -29,7 +29,16 @@
  <p>Each time when the game starts, the game will change the values of each car</p> 
 <!-- The div where our target random number to match will be shown. -->
  
-<div id="target-random-number"></div>
+<div class="row">
+    <div class="col-md-12">
+      <div class="card mb-2">
+        <h3 class="card-header">Speed</h3>
+        <div class="card-body text-left">
+          <h1 id="target-random-number">Miles per Hour</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <div>
 <h3 class="section-title">Wins</h3>
@@ -44,8 +53,10 @@
 
 <!-- displayed car image buttons on the page-->
 
-<input type="image" src="assets/images/kartik-bhattacharjee-257547-unsplash" id="Nissan"/>
-
+<input type="image" id="Nissan" src="assets/images/kartik-bhattacharjee-257547-unsplash.jpg" alt="red nissan gtr" value="1"/>
+<input type="image" id="Lambo" src="assets/images/marcus-p-655824-unsplash.jpg" alt="yellow lamborghini" value="2"/>
+<input type="image" id="Amg" src="assets/images/viktor-theo-1289401-unsplash.jpg" alt="green mercedes benz amg" value="3"/>
+<input type="image" id="R8" src="assets/images/conor-samuel-974694-unsplash.jpg" alt="black audi r8" value="4"/>
 
 <h3 class="section-title">Your Total Score is:</h3>
 <!--The div where our score will be shown-->
