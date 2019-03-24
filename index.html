@@ -14,19 +14,18 @@
     
 </head>
 <body>
- <div class="jumbotron">
- <h1 class="text-center">POWERFUL CARS</h1>
- <h3 class="text-center">Try to mantain the speed limit</h3>
- </div>
-
- <div class=col-lg-4>
- <div class="card">
- <h2 class="card-header">Instructions</h2>
- <div class="card-body">
- <p>You will be given a ramdom number at the start of the game. There are four cars below. By clicking on a car you will be add a specific amount of points to your total score.</p>
- <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
- <p>The value of each car is hidden from you until you click on it.</p>
- <p>Each time when the game starts, the game will change the values of each car</p> 
+   <div class="jumbotron">
+     <h1 class="text-center">POWERFUL CARS</h1>
+     <h3 class="text-center">Try to match the speed limit</h3>
+   </div>
+<div class=col-lg-12>
+  <div class="card">
+     <h2 class="card-header">Instructions</h2>
+  <div class="card-body">
+      <p>You will be given a ramdom speed number at the start of the game. There are four cars below. By clicking on a car you will be add a specific amount of points/speed to your total score.</p>
+      <p>You win the game by matching your total score/speed to the random speed number, you lose the game if your total score goes above the random number.</p>
+      <p>The value of each car is hidden from you until you click on it.</p>
+  
 <!-- The div where our target random number to match will be shown. -->
  
 <div class="row">
@@ -38,9 +37,8 @@
         </div>
       </div>
     </div>
-  </div>
 
-<div>
+<div class="card">
 <h3 class="section-title">Wins</h3>
 <!-- The div where our wins will be shown. -->
 <div id="wins"></div>
@@ -61,13 +59,6 @@
 <h3 class="section-title">Your Total Score is:</h3>
 <!--The div where our score will be shown-->
 <div id="score"></div>
-
-</div>
-</div>
-</div>
- 
-
-
 
     <!-- Linking to our JavaScript file. -->
     <script type="text/javascript" src="assets/javascript/game.js"></script>
